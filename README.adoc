@@ -16,5 +16,5 @@ java ... HOST PORT QUEUEMANAGER CHANNEL TOPICNAME USER PASS
 
 == TODO
 
-use JmsTemplate and spring listener
-use standar messages
+- use JmsTemplate and spring listener
+- use standar messages

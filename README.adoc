@@ -1,0 +1,20 @@
+= mq-jms-sample
+
+simple sample to send and receive from a mq topic
+
+== Compile
+
+mvn clean compile
+
+NOTE: mq libraries are not open so you must configure a repository that contains mq libraries in your pom/settings
+
+
+== Usage
+
+java ... HOST PORT QUEUEMANAGER CHANNEL TOPICNAME USER PASS
+
+
+== TODO
+
+use JmsTemplate and spring listener
+use standar messages
